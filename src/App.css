@@ -1,0 +1,32 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.notice-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.notice-container h2 {
+  margin-bottom: 20px;
+}
+
+.notice-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notice-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.notice-item button {
+  padding: 5px 10px;
+}
+
